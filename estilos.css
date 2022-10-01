@@ -19,9 +19,6 @@
     margin-top: 50px;
 }
 
-#cuenta {
-    background-color: black;
-}
 
 
 #cont_inicio {
@@ -679,9 +676,6 @@ background-color: rgb(182, 110, 110);
 }
 
 
-#redessociales {
-    background-color: rgb(89, 126, 89);
-}
 
 .botones{
     background-color: black;
@@ -738,3 +732,54 @@ background-color: rgb(182, 110, 110);
     background-image: url(imagenes/imgsobrecromo.png);
     background-size: cover;
 }
+
+.buscador{
+    margin-top: 30px;
+    width:70%;
+    margin-left: 90px;
+    margin-right: 5px;
+}
+
+.caja_cuenta{
+    color: whitesmoke;
+    font-size: 8px;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 2px;
+}
+
+.caja_carrito{
+    color: whitesmoke;
+    font-size: 8px;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 2px;
+  
+}
+
+.caja_cuenta1{
+    color: whitesmoke;
+    font-size: 8px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 2px;
+}
+
+.caja_carrito1{
+    color: whitesmoke;
+    font-size: 8px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 2px;
+  
+}
+
+.seguinos{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+
