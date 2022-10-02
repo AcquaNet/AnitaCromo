@@ -10,9 +10,7 @@
     
 }
 
-#marca {
-    background-color:black;
-}
+
 
 .img-fluid {
     margin-top: 50px;
@@ -28,9 +26,7 @@
 height: 600px;
 }
 
-#banner {
-    background-color:cadetblue;
-}
+
 
 .caja_banner{
     background-image: url(imagenes/banner.png);
@@ -52,9 +48,6 @@ height: 600px;
     margin-top: 90px;
 }
 
-#vestidos {
-    background-color: rgb(126, 182, 126);
-}
 
 .caja_vestidos {
     background-image: url(imagenes/vestidos_.jpg);
@@ -71,39 +64,28 @@ height: 600px;
     height: 350px;
 }
 
-#bikers {
-background-color: rgb(182, 110, 110);
-}
+
 
 .caja_bikers{
     background-image: url(imagenes/bikers.png);
     background-size: cover;
 }
 
-#poleras {
-    background-color: rgb(193, 128, 160);
-}
+
 
 .caja_poleras{
     background-image: url(imagenes/poleras.jpg);
     background-size: cover;
 }
 
-#mod5_cont {
-    height: 350px;
-}
 
-#pañuelos {
-    background-color: rgb(161, 132, 88);
-}
+
+
  .caja_pañuelos{
     background-image: url(imagenes/pa;uelos.png);
     background-size: cover;
  }
-#buzos {
-    background-color: rgb(79, 150, 173);
-    
-}
+
 
 .caja_buzos{
     background-image: url(imagenes/buzos.jpg);
@@ -120,35 +102,26 @@ background-color: rgb(182, 110, 110);
     background-color:rgb(78, 84, 78);
 }
 
-#img_sobrecromo {
-    background-color: rgb(160, 104, 84);
-}
+
 
 #mod7_cont{
     height: 800px;
 }
 
-#img1_sobrecromo {
-    background-color: cadetblue;
-}
+
 
 .sobrecromo1{
     background-image: url(imagenes/img1.0.jpg);
     background-size: cover;
 }
 
-#img2_sobrecromo {
-    background-color: rgb(105, 96, 159);
-}
 
 .sobrecromo2{
     background-image: url(imagenes/img2.0.jpg);
     background-size: cover;
 }
 
-#img3_sobrecromo {
-    background-color: rgb(75, 130, 130);
-}
+
 
 .sobrecromo3{
     background-image: url(imagenes/img3.0.jpg);
@@ -158,20 +131,16 @@ background-color: rgb(182, 110, 110);
 
 
 #mod8_cont{
-    height: 600px;
+    height: 800px;
 }
 
-#iniciasecion_cuenta {
-    background-color: darkslategrey;
-}
 
-#img_cuenta {
-    background-color:aqua;
-}
+
+
 
 .caja_cuentaimg{
-    background-image: url(imagenes/Cuenta.jpeg);
-    background-size: cover;
+   margin-left: 100px;
+
 }
 
 #pie_inicio{
@@ -801,6 +770,24 @@ background-color: rgb(182, 110, 110);
     background-color:grey;
     
 }
+
+.caja_separtedecromo{
+    margin-top: 20px;
+}
+
+.botonescuenta{
+    color:whitesmoke;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.botonescuenta:hover {
+    color: gray;
+   
+}
+
 
 @media (max-width: 575.98px)
 
