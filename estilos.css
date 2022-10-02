@@ -2,11 +2,10 @@
     background-color:black;
    
 }
-#cabecera_inicio .row {
-    height: 150px;
-}
+
+
 #botonera {
-    height: 38px;
+  
     margin-top: 90px;
     
 }
@@ -158,14 +157,21 @@ background-color: rgb(182, 110, 110);
 }
 
 
-
+#mod8_cont{
+    height: 600px;
+}
 
 #iniciasecion_cuenta {
     background-color: darkslategrey;
 }
 
 #img_cuenta {
-    background-color: lightseagreen;
+    background-color:aqua;
+}
+
+.caja_cuentaimg{
+    background-image: url(imagenes/Cuenta.jpeg);
+    background-size: cover;
 }
 
 #pie_inicio{
@@ -173,9 +179,7 @@ background-color: rgb(182, 110, 110);
     height: 300px;
 }
 
-#mod9_cont {
-    height: 250px;
-}
+
 
 #cont_productos {
     background-color: black;
@@ -785,5 +789,22 @@ background-color: rgb(182, 110, 110);
 {
     color: gray;
 }
+
+.color_boton{
+    background-color: black;
+    color: whitesmoke;
+    width:300px;
+}
+
+.color_boton:hover
+{
+    background-color:grey;
+    
+}
+
+@media (max-width: 575.98px)
+
+
+
 
 
