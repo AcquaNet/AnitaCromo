@@ -705,7 +705,7 @@
 .buscador{
     margin-top: 30px;
     width:70%;
-    margin-left: 90px;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
@@ -713,7 +713,7 @@
     color: whitesmoke;
     font-size: 8px;
     margin-top: 30px;
-    margin-left: 1px;
+    margin-left: 1px; 
     margin-right: 2px;
 }
 
@@ -721,7 +721,7 @@
     color: whitesmoke;
     font-size: 8px;
     margin-top: 30px;
-    margin-left: 1px;
+    margin-left: 1px; 
     margin-right: 2px;
   
 }
@@ -788,8 +788,33 @@
     color: whitesmoke;
     font-size: 14px;
 }
+.modotelefono{
+    display: none;
+}
+.botoneratelefono{
+    display: none;
+}
 
-@media (max-width: 575.98px)
+@media (max-width: 575.98px) {
+    .modocomputadora{
+        display:none ;
+    }
+
+    .modotelefono{
+        display: block;
+    }
+
+    .botoneracomputadora{
+        display: none;
+    }
+    .botoneratelefono{
+        display: block;
+        
+
+    }
+ }
+
+
 
 
 
