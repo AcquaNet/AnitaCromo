@@ -22,15 +22,12 @@
     background-color: black;
 }
 
-#mod1_cont {
-height: 600px;
-}
 
 
 
 .caja_banner{
-    background-image: url(imagenes/banner.png);
-    background-size: cover;
+    background-color: black;
+
 }
 
 #mod2_cont {
@@ -787,7 +784,10 @@ height: 600px;
     color: gray;
    
 }
-
+.prueba{
+    color: whitesmoke;
+    font-size: 14px;
+}
 
 @media (max-width: 575.98px)
 
