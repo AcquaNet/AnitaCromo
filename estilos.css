@@ -99,7 +99,7 @@
 }
 #texto_sobrecromo {
     background-color:rgb(78, 84, 78);
-    height: 600px;
+    height: 700px;
 }
 
 
@@ -234,7 +234,7 @@
         
         #text6 {
             background-color: rgb(32, 126, 143);
-        }
+        }aja_bikers
         
         #text7 {
             background-color: rgb(11, 86, 106);
@@ -815,6 +815,9 @@
     height: 30px;
 }
 
+.caja_bannertelefono{
+    display: none;
+}
 
 @media (max-width: 575.98px) {
     .modocomputadora{
@@ -847,15 +850,29 @@
         display: none;
     }
 
-    .sobrecromo1{
-        display: none;
-    }
+  
 
     .sobrecromo2{
         display: none;
     }
 
     .sobrecromo3{
+        display: none;
+    }
+     
+    .caja_bannersobrecromo{
+        display: none;
+    }
+
+    .caja_bannertelefono{
+        display: block;
+        
+        background-color: black;
+    }
+    .text_titulo{
+        display: none;
+    }
+    #mod1_cont{
         display: none;
     }
     
