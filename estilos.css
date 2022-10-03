@@ -29,7 +29,9 @@
     background-color: black;
 
 }
-
+#mod1_cont {
+    height: 600px;
+}
 #mod2_cont {
     height: 350px;
 }
@@ -66,6 +68,7 @@
 .caja_bikers{
     background-image: url(imagenes/bikers.png);
     background-size: cover;
+    margin-bottom: 10px;
 }
 
 
@@ -87,35 +90,37 @@
 .caja_buzos{
     background-image: url(imagenes/buzos.jpg);
     background-size: cover;
+    margin-bottom: 10px;
 }
-#mod6_cont {
-    height: 550px;
-}
+
 .caja_bannersobrecromo{
     background-image: url(imagenes/bannersobrecromo.png);
     background-size: cover;
 }
 #texto_sobrecromo {
     background-color:rgb(78, 84, 78);
+    height: 600px;
 }
 
 
 
-#mod7_cont{
-    height: 800px;
-}
+
 
 
 
 .sobrecromo1{
     background-image: url(imagenes/img1.0.jpg);
     background-size: cover;
+    height: 700px;
+    margin-bottom: 10px;
 }
 
 
 .sobrecromo2{
     background-image: url(imagenes/img2.0.jpg);
     background-size: cover;
+    height: 700px;
+    margin-bottom: 10px;
 }
 
 
@@ -123,13 +128,13 @@
 .sobrecromo3{
     background-image: url(imagenes/img3.0.jpg);
     background-size: cover;
+    height: 700px;
+    margin-bottom: 10px;
 
 }
 
 
-#mod8_cont{
-    height: 800px;
-}
+
 
 
 
@@ -659,9 +664,10 @@
 .secciones{
     color:whitesmoke;
     font-size: 22px;
-    margin-top: 50px;
-    margin-left: 35px;
+    margin-top: 70px;
+    margin-left: 50px;
 }
+
 
 .secciones:hover{
     color:black
@@ -706,7 +712,8 @@
     margin-top: 30px;
     width:70%;
     margin-left: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
+    border-radius: 25px;
 }
 
 .caja_cuenta{
@@ -795,6 +802,20 @@
     display: none;
 }
 
+.cuenta_caja{
+    margin-left: 210px;
+}
+
+.subsecciones{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.texto_prod1{
+    height: 30px;
+}
+
+
 @media (max-width: 575.98px) {
     .modocomputadora{
         display:none ;
@@ -812,6 +833,34 @@
         
 
     }
+    .caja_bannersobrecromo{
+        background-position: center;
+    }
+    .text_titulo{
+            margin-top: 30px;
+           
+            margin-right: 20px;
+        
+        }
+
+    .caja_cuentaimg{
+        display: none;
+    }
+
+    .sobrecromo1{
+        display: none;
+    }
+
+    .sobrecromo2{
+        display: none;
+    }
+
+    .sobrecromo3{
+        display: none;
+    }
+    
+    
+
  }
 
 
