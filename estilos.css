@@ -818,6 +818,18 @@
 .caja_bannertelefono{
     display: none;
 }
+    
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 30px;
+    width: 950px;
+  }
+
+  .margen {
+    margin-top: 30px; 
+  } 
 
 @media (max-width: 575.98px) {
     .modocomputadora{
@@ -876,6 +888,13 @@
         display: none;
     }
     
+    .abs-center {
+        display: flex;
+        align-items: right;
+        justify-content: center; 
+        margin-top: 30px;
+        width: 950px;
+      }
     
 
  }
