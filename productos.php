@@ -21,7 +21,7 @@
 
                         <div class="caja_cuenta"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                      </svg> <?php if(isset($SESSION['clientes'])) { ?>
+                      </svg> <?php if(isset($_SESSION['clientes'])) { ?>
                         <a href="cerrar_secion.php" class="botones caja_cuenta1">CERRAR SESION</a>
                         <?php } else { ?>
                     </div>
@@ -131,7 +131,7 @@
                        
                         <div class="caja_cuenta"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                      </svg> <?php if(isset($SESSION['clientes'])) { ?>
+                      </svg> <?php if(isset($_SESSION['clientes'])) { ?>
                         <a href="cerrar_secion.php" class="botones caja_cuenta1">CERRAR SESION</a>
                         <?php } else { ?>
                     </div>
@@ -156,7 +156,7 @@
                 <img src="imagenes/vestidoedesia.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">VESTIDO EDESIA</h5>
-                  <?php if(isset($SESSION['clientes'])) { ?>
+                  <?php if(isset($_SESSION['clientes'])) { ?>
                   <p class="card-text">$7.500</p>
                   <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                   <?php } ?>
@@ -169,7 +169,7 @@
                   <img src="imagenes/vestidoapis.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">VESTIDO APIS</h5>
-                    <?php if(isset($SESSION['clientes'])) { ?>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$5.500</p>
                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                     <?php } ?>
@@ -183,7 +183,7 @@
                   <img src="imagenes/vestidooia.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">VESTIDO OIA</h5>
-                    <?php if(isset($SESSION['clientes'])) { ?>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$4.000</p>
                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                     <?php } ?>
@@ -197,7 +197,7 @@
                   <img src="imagenes/topcuellomarmol.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">TOP CUELLO MARMOL</h5>
-                    <?php if(isset($SESSION['clientes'])) { ?>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$5.500</p>
                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                     <?php } ?>
@@ -212,7 +212,7 @@
                   <img src="imagenes/top.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">TOP CUELLO JAPÓN</h5>
-                    <?php if(isset($SESSION['clientes'])) { ?>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$5.500</p>
                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                     <?php } ?>
@@ -226,7 +226,7 @@
                     <img src="imagenes/vestidodragon.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">VESTIDO DRAGÓN</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$5.200</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -240,7 +240,7 @@
                     <img src="imagenes/poleracropvangogh.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">POLERA CROP VAN GOGH</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$6.200</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -254,7 +254,7 @@
                     <img src="imagenes/poleracropjungle.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">POLERA CROP JUNGLE</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$6.200</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -270,7 +270,7 @@
                   <img src="imagenes/vestidomalta.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">VESTIDO MALTA</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$5.200</p>
                       a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -284,7 +284,7 @@
                     <img src="imagenes/poleramarmol.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">POLERA MARMOL</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$6.400</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -298,7 +298,7 @@
                     <img src="imagenes/topmilosdragon.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TOP MILOS DRAGÓN</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$3.400</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -312,7 +312,7 @@
                     <img src="imagenes/topmilos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TOP MILOS</h5>
-                      <?php if(isset($SESSION['clientes'])) { ?>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$3.400</p>
                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                       <?php } ?>
@@ -328,7 +328,7 @@
                       <img src="imagenes/polerajaponnn.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">POLERA JAPON</h5>
-                        <?php if(isset($SESSION['clientes'])) { ?>
+                        <?php if(isset($_SESSION['clientes'])) { ?>
                         <p class="card-text">$6.400</p>
                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                         <?php } ?>
@@ -342,7 +342,7 @@
                         <img src="imagenes/vestidocai.png" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">VESTIDO CAI</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$8.700</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -356,7 +356,7 @@
                         <img src="imagenes/topmilosjapon.png" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">TOP MILOS JAPÓN</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$3.400</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -370,7 +370,7 @@
                         <img src="imagenes/polerablack.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">POLERA BLACK</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$6.400</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -387,7 +387,7 @@
                       <img src="imagenes/topcuellosea.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">TOP CUELLO SEA</h5>
-                        <?php if(isset($SESSION['clientes'])) { ?>
+                        <?php if(isset($_SESSION['clientes'])) { ?>
                         <p class="card-text">$5.500</p>
                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                         <?php } ?>
@@ -400,7 +400,7 @@
                         <img src="imagenes/poleravangogh.png" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">POLERA VAN GOGH</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$6.400</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -414,7 +414,7 @@
                         <img src="imagenes/panuelomarmol.png" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">PAÑUELO MARMOL</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$2.500</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -428,7 +428,7 @@
                       <img src="imagenes/polerablack.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">PAÑUELO JAPÓN</h5>
-                          <?php if(isset($SESSION['clientes'])) { ?>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$2.500</p>
                           <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                           <?php } ?>
@@ -444,7 +444,7 @@
                           <img src="imagenes/remeroncroacia.png" class="card-img-top" alt="...">
                     <div class="card-body">
                             <h5 class="card-title">REMERÓN CROACIA</h5>
-                            <?php if(isset($SESSION['clientes'])) { ?>
+                            <?php if(isset($_SESSION['clientes'])) { ?>
                             <p class="card-text">$5.500</p>
                             <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                             <?php } ?>
@@ -458,7 +458,7 @@
                         <img src="imagenes/vestidomangalargajapon.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">VESTIDO MANGA LARGA JAPÓN</h5>
-                        <?php if(isset($SESSION['clientes'])) { ?>
+                        <?php if(isset($_SESSION['clientes'])) { ?>
                         <p class="card-text">$6.800</p>
                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                         <?php } ?>
@@ -472,7 +472,7 @@
                             <img src="imagenes/vestidovangogh.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">VESTIDO VAN GOGH</h5>
-                        <?php if(isset($SESSION['clientes'])) { ?>
+                        <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$6.800</p>
                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                         <?php } ?>
@@ -486,7 +486,7 @@
                             <img src="imagenes/poleracropwoods.png" class="card-img-top" alt="...">
                     <div class="card-body">
                               <h5 class="card-title">POLERA CROP WOODS</h5>
-                              <?php if(isset($SESSION['clientes'])) { ?>
+                              <?php if(isset($_SESSION['clientes'])) { ?>
                               <p class="card-text">$6.400</p>
                               <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                               <?php } ?>
@@ -502,7 +502,7 @@
                               <img src="imagenes/polerawoods.jpg" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">POLERA WOODS</h5>
-                                <?php if(isset($SESSION['clientes'])) { ?>
+                                <?php if(isset($_SESSION['clientes'])) { ?>
                                 <p class="card-text">$6.400</p>
                                 <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                 <?php } ?>
@@ -516,7 +516,7 @@
                                 <img src="imagenes/topcuellovangogh.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">TOP CUELLO VAN GOGH</h5>
-                        <?php if(isset($SESSION['clientes'])) { ?>
+                        <?php if(isset($_SESSION['clientes'])) { ?>
                         <p class="card-text">$5.500</p>
                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                         <?php } ?>
@@ -530,7 +530,7 @@
                                 <img src="imagenes/vestidoestampajapon.png" class="card-img-top" alt="...">
                     <div class="card-body">
                                   <h5 class="card-title">VESTIDOS ESTAMPAS JAPÓN</h5>
-                                  <?php if(isset($SESSION['clientes'])) { ?>
+                                  <?php if(isset($_SESSION['clientes'])) { ?>
                                   <p class="card-text">$6.000</p>
                                   <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                   <?php } ?>
@@ -544,7 +544,7 @@
                                 <img src="imagenes/topcuellofusion.png" class="card-img-top" alt="...">
                     <div class="card-body">
                                   <h5 class="card-title">TOP CUELLO FUSION</h5>
-                                  <?php if(isset($SESSION['clientes'])) { ?>
+                                  <?php if(isset($_SESSION['clientes'])) { ?>
                                   <p class="card-text">$5.500</p>
                                   <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                   <?php } ?>
@@ -561,7 +561,7 @@
                                   <img src="imagenes/poleracropdragon.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                                     <h5 class="card-title">POLERA WCROP DRAGÓN</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$6.200</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -575,7 +575,7 @@
                                     <img src="imagenes/poleracropjapon.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                                       <h5 class="card-title">POLERA CROP JAPÓN</h5>
-                                      <?php if(isset($SESSION['clientes'])) { ?>
+                                      <?php if(isset($_SESSION['clientes'])) { ?>
                                       <p class="card-text">$6.200</p>
                                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                       <?php } ?>
@@ -589,7 +589,7 @@
                                     <img src="imagenes/vestidojungle.png" class="card-img-top" alt="...">
                     <div class="card-body">
                                       <h5 class="card-title">VESTIDO JUNGLE</h5>
-                                      <?php if(isset($SESSION['clientes'])) { ?>
+                                      <?php if(isset($_SESSION['clientes'])) { ?>
                                       <p class="card-text">$6.800</p>
                                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                       <?php } ?>
@@ -603,7 +603,7 @@
                                     <img src="imagenes/topcuellojungle.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                                       <h5 class="card-title">TOP CUELLO JUNGLE</h5>
-                                      <?php if(isset($SESSION['clientes'])) { ?>
+                                      <?php if(isset($_SESSION['clientes'])) { ?>
                                       <p class="card-text">$5.500</p>
                                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                       <?php } ?>
@@ -620,7 +620,7 @@
                                       <img src="imagenes/buzoborbol.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                                         <h5 class="card-title">BUZO BORBOL</h5>
-                                        <?php if(isset($SESSION['clientes'])) { ?>
+                                        <?php if(isset($_SESSION['clientes'])) { ?>
                                         <p class="card-text">$7.200</p>
                                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                         <?php } ?>
@@ -634,7 +634,7 @@
                             <img src="imagenes/topcuellowoods.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP CUELLO WOODS</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$5.500</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -648,7 +648,7 @@
                             <img src="imagenes/polerajungle.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">POLERA JUNGLES</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$6.400</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -662,7 +662,7 @@
                             <img src="imagenes/topmilosmarmol.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP MILOS MARMOL</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$3.400</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -679,7 +679,7 @@
                             <img src="imagenes/remera maja.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">REMERA MAJA</h5>
-                                <?php if(isset($SESSION['clientes'])) { ?>
+                                <?php if(isset($_SESSION['clientes'])) { ?>
                                 <p class="card-text">$4.000</p>
                                 <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                 <?php } ?>
@@ -693,7 +693,7 @@
                             <img src="imagenes/vestidofusion.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">VESTIDO FUSION</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$6.000</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -707,7 +707,7 @@
                             <img src="imagenes/bikers.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">BIKERS</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$5.300</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -721,7 +721,7 @@
                             <img src="imagenes/topcuellodragon.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP CUELLO DRAGÓN</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$5.500</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -737,7 +737,7 @@
                             <img src="imagenes/buzosommer.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                         <h5 class="card-title">BUZO SOMMER</h5>
-                                        <?php if(isset($SESSION['clientes'])) { ?>
+                                        <?php if(isset($_SESSION['clientes'])) { ?>
                                         <p class="card-text">$7.200</p>
                                         <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                         <?php } ?>
@@ -751,7 +751,7 @@
                             <img src="imagenes/remeramierva.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">REMERA MINERVA</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$3.400</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
@@ -765,7 +765,7 @@
                     <img src="imagenes/vestidoalat.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                                 <h5 class="card-title">VESTIDO ALAT</h5>
-                                <?php if(isset($SESSION['clientes'])) { ?>
+                                <?php if(isset($_SESSION['clientes'])) { ?>
                                 <p class="card-text">$9.000</p>
                                 <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                 <?php } ?>
@@ -778,7 +778,7 @@
                             <img src="imagenes/musculosacuouro.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">MUSCULOSACUOURO</h5>
-                                    <?php if(isset($SESSION['clientes'])) { ?>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$8.000</p>
                                     <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
                                     <?php } ?>
