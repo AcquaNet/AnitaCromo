@@ -102,6 +102,11 @@
     height: 700px;
 }
 
+#texto_preguntasfrecuentes{
+    background-color:rgb(78, 84, 78);
+
+}
+
 
 
 
@@ -133,18 +138,15 @@
 
 }
 
-
-
-
-
-
-
-
 .caja_cuentaimg{
    margin-left: 100px;
+   margin-bottom: 30px;
 
 }
-
+.caja_contactoimg{
+    margin-left: 0px;
+ 
+ }
 #pie_inicio{
     background-color: rgb(65, 65, 65);
     height: 300px;
@@ -158,498 +160,10 @@
 }
 
 
-
-#prod1_cont {
-    height: 560px;
-    }
-
-#img1 {
-    background-color: aquamarine;
-}
-
-#img2 {
-    background-color: rgb(55, 172, 133);
-}
-
-#img3 {
-    background-color: rgb(34, 124, 94);
-}
-
-#img4 {
-    background-color: rgb(3, 66, 45);
-} 
-
-
-#prod1_text {
-    height: 150px;
-    }
-
-#text1 {
-    background-color: aquamarine;
-}
-
-#text2 {
-    background-color: rgb(55, 172, 133);
-}
-
-#text3 {
-    background-color: rgb(34, 124, 94);
-}
-
-#text4 {
-    background-color: rgb(3, 66, 45);
-} 
-
-
-
-#prod2_cont {
-    height: 560px;
-    }
-
-    #img5 {
-        background-color: rgb(127, 240, 255);
-    }
-    
-    #img6 {
-        background-color: rgb(32, 126, 143);
-    }
-    
-    #img7 {
-        background-color: rgb(11, 86, 106);
-    }
-    
-    #img8 {
-        background-color: rgb(1, 23, 34);
-    }
-
-
-
-    #prod2_text {
-        height: 150px;
-        }
-    
-        #text5 {
-            background-color: rgb(127, 240, 255);
-        }
-        
-        #text6 {
-            background-color: rgb(32, 126, 143);
-        }aja_bikers
-        
-        #text7 {
-            background-color: rgb(11, 86, 106);
-        }
-        
-        #text8 {
-            background-color: rgb(1, 23, 34);
-        }
-
-
-    
-#prod3_cont {
-    height: 560px;
-    }
-
-    #img9 {
-        background-color: rgb(112, 144, 234);
-    }
-    
-    #img10 {
-        background-color: rgb(79, 84, 132);
-    }
-    
-    #img11 {
-        background-color: rgb(56, 62, 100);
-    }
-    
-    #img12 {
-        background-color: rgb(33, 39, 69);
-    }
-
-
-    #prod3_text {
-        height: 150px;
-        }
-    
-        #text9 {
-            background-color: rgb(112, 144, 234);
-        }
-        
-        #text10 {
-            background-color: rgb(79, 84, 132);
-        }
-        
-        #text11 {
-            background-color: rgb(56, 62, 100);
-        }
-        
-        #text12 {
-            background-color: rgb(33, 39, 69);
-        }
-    
-
-
-
-#prod4_cont {
-    height: 560px;
-    }
-
-    #img13 {
-        background-color: rgb(197, 135, 242);
-    }
-    
-    #img14 {
-        background-color: rgb(152, 88, 163);
-    }
-    
-    #img15 {
-        background-color: rgb(149, 46, 167);
-    }
-    
-    #img16 {
-        background-color: rgb(100, 7, 96);
-    }
-
-
-
-    #prod4_text {
-        height: 150px;
-        }
-    
-        #text13 {
-            background-color: rgb(197, 135, 242);
-        }
-        
-        #text14 {
-            background-color: rgb(152, 88, 163);
-        }
-        
-        #text15 {
-            background-color: rgb(149, 46, 167);
-        }
-        
-        #text16 {
-            background-color: rgb(100, 7, 96);
-        }
-
-
-
-
-#prod5_cont {
-    height: 560px;
-    }
-
-    
-    #img17 {
-        background-color: rgb(155, 243, 170);
-    }
-    
-    #img18 {
-        background-color: rgb(66, 126, 89);
-    }
-    
-    #img19 {
-        background-color: rgb(39, 108, 27);
-    }
-    
-    #img20 {
-        background-color: rgb(11, 73, 0);
-    }
-
-    #prod5_text {
-        height: 150px;
-        }
-    
-        
-        #text17 {
-            background-color: rgb(155, 243, 170);
-        }
-        
-        #text18 {
-            background-color: rgb(66, 126, 89);
-        }
-        
-        #text19 {
-            background-color: rgb(39, 108, 27);
-        }
-        
-        #text20 {
-            background-color: rgb(11, 73, 0);
-        }
-
-
-
-#prod6_cont {
-    height: 560px;
-    }
-
-    #img21 {
-        background-color: rgb(214, 243, 155);
-    }
-    
-    #img22 {
-        background-color: rgb(139, 163, 87);
-    }
-    
-    #img23 {
-        background-color: rgb(109, 118, 21);
-    }
-    
-    #img24 {
-        background-color: rgb(95, 114, 17);
-    }
-
-
-    #prod6_text {
-        height: 150px;
-        }
-    
-        #text21 {
-            background-color: rgb(214, 243, 155);
-        }
-        
-        #text22 {
-            background-color: rgb(139, 163, 87);
-        }
-        
-        #text23 {
-            background-color: rgb(109, 118, 21);
-        }
-        
-        #text24 {
-            background-color: rgb(95, 114, 17);
-        }
-
-
-#prod7_cont {
-    height: 560px;
-    }
-
-    #img25 {
-        background-color: rgb(241, 230, 144);
-    }
-    
-    #img26 {
-        background-color: rgb(158, 138, 68);
-    }
-    
-    #img27 {
-        background-color: rgb(114, 97, 21);
-    }
-    
-    #img28 {
-        background-color: rgb(120, 131, 4);
-    }
-
-    #prod7_text {
-        height: 150px;
-        }
-    
-        #text25 {
-            background-color: rgb(241, 230, 144);
-        }
-        
-        #text26 {
-            background-color: rgb(158, 138, 68);
-        }
-        
-        #text27 {
-            background-color: rgb(114, 97, 21);
-        }
-        
-        #text28 {
-            background-color: rgb(120, 131, 4);
-        }
-
-        
-
-#prod8_cont {
-    height: 560px;
-    }
-
-    #img29 {
-        background-color: rgb(241, 175, 144);
-    }
-    
-    #img30 {
-        background-color: rgb(171, 64, 59);
-    }
-    
-    #img31 {
-        background-color: rgb(113, 40, 20);
-    }
-    
-    #img32 {
-        background-color: rgb(70, 5, 2);
-    }
-
-    #prod8_text {
-        height: 150px;
-        }
-    
-        #text29 {
-            background-color: rgb(241, 175, 144);
-        }
-        
-        #text30 {
-            background-color: rgb(171, 64, 59);
-        }
-        
-        #text31 {
-            background-color: rgb(113, 40, 20);
-        }
-        
-        #text32 {
-            background-color: rgb(70, 5, 2);
-        }
-
-
-#prod9_cont {
-    height: 560px;
-    }
-
-    #img33 {
-        background-color: aquamarine;
-    }
-    
-    #img34 {
-        background-color: rgb(55, 172, 133);
-    }
-    
-    #img35 {
-        background-color: rgb(48, 88, 75);
-    }
-    
-    #img36 {
-        background-color: rgb(3, 66, 45);
-    } 
-
-    #prod9_text {
-        height: 150px;
-        }
-    
-        #text33 {
-            background-color: aquamarine;
-        }
-        
-        #text34 {
-            background-color: rgb(55, 172, 133);
-        }
-        
-        #text35 {
-            background-color: rgb(48, 88, 75);
-        }
-        
-        #text36 {
-            background-color: rgb(3, 66, 45);
-        } 
-
-        
-
-
-#prod10_cont {
-    height: 560px;
-    }
-
-    #img37 {
-        background-color: rgb(127, 240, 255);
-    }
-    
-    #img38 {
-        background-color: rgb(32, 126, 143);
-    }
-    
-    #img39 {
-        background-color: rgb(11, 86, 106);
-    }
-    
-    #img40 {
-        background-color: rgb(1, 23, 34);
-    }
- 
-
-    #prod10_text {
-        height: 150px;
-        }
-    
-        #text37 {
-            background-color: rgb(127, 240, 255);
-        }
-        
-        #text38 {
-            background-color: rgb(32, 126, 143);
-        }
-        
-        #text39 {
-            background-color: rgb(11, 86, 106);
-        }
-        
-        #text40 {
-            background-color: rgb(1, 23, 34);
-        }
- 
-        
-
-#prod11_cont {
-    height: 560px;
-    }
-
-    #img41 {
-        background-color: rgb(155, 243, 170);
-    }
-    
-    #img42 {
-        background-color: rgb(66, 126, 89);
-    }
-    
-    #img43 {
-        background-color: rgb(39, 108, 27);
-    }
-    
-    #img44 {
-        background-color: rgb(11, 73, 0);
-    }
-
-
-    #prod11_text {
-        height: 150px;
-        }
-    
-        #text41 {
-            background-color: rgb(155, 243, 170);
-        }
-        
-        #text42 {
-            background-color: rgb(66, 126, 89);
-        }
-        
-        #text43 {
-            background-color: rgb(39, 108, 27);
-        }
-        
-        #text44 {
-            background-color: rgb(11, 73, 0);
-        }
-
-        
 #cont_contacto {
     background-color: black;
-    height: 1000px;
+   
 }
-
-#mod_contact {
-    height: 600px;
-}
-
-#img_contact {
-    background-color: blueviolet;
-}
-
-#datos_contacto{
-    background-color: rgb(174, 106, 236);
-}
-
-
 
 .botones{
     background-color: black;
@@ -681,10 +195,34 @@
 
 
 }
+
+.text_titulo2{
+    font-size: 60px;
+    color:black;
+    margin-top: 270px;
+    margin-left: 500px;
+
+
+}
 .titulosobrecromo{
     margin-top:80px;
+    margin-bottom: 80px;
     color:whitesmoke;
 }
+.titulopregfre{
+    margin-top:25px;
+    color:whitesmoke;
+}
+
+.textopregfre{
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1px;
+    color: rgb(166, 174, 164);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
 .textosobre{
     font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -693,6 +231,7 @@
     margin-left: 70px;
     margin-right: 70px;
 }
+
 .textosobre2{
     font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -706,6 +245,11 @@
 .caja_imgsobrecromo{
     background-image: url(imagenes/imgsobrecromo.png);
     background-size: cover;
+}
+
+.caja_imgpreguntasfrecuentes{
+    background-image: url(imagenes/imgpreg.jpg);
+
 }
 
 .buscador{
@@ -735,7 +279,7 @@
 
 .caja_cuenta1{
     color: whitesmoke;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 2px;
     margin-left: 1px;
     margin-right: 2px;
@@ -743,7 +287,7 @@
 
 .caja_carrito1{
     color: whitesmoke;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 2px;
     margin-left: 1px;
     margin-right: 2px;
@@ -764,14 +308,15 @@
 }
 
 .color_boton{
-    background-color: black;
-    color: whitesmoke;
-    width:300px;
+    background-color: whitesmoke;
+    color: black;
+    width:250px;
 }
 
 .color_boton:hover
 {
     background-color:grey;
+ 
     
 }
 
@@ -831,6 +376,46 @@
     margin-top: 30px; 
   } 
 
+
+  .datos_contacto{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+  
+  .forms_contacto{
+    margin-top: 40px;
+  }
+
+  .edit_contactanos{
+    color: whitesmoke;
+  }
+
+  .caja_bannerpreguntasfrecuentes{
+   background-image: url(imagenes/bannerpreguntasfrecuentes.png);
+   background-size: cover;
+ 
+  }
+  .productos_fondo{
+    background-color:rgb(78, 84, 78);
+    color: whitesmoke;
+  }
+  .carrito{
+    color:whitesmoke;
+    background-color: rgba(245, 245, 245, 0.477);
+  }
+ .caja_recordarmelo{
+    color: whitesmoke;
+ }
+.color_tabs{
+    color:grey;
+}
+.color_tabs:hover{
+    color: whitesmoke;
+}
+.cajaproductos{
+    margin-top: 60px;
+}
 @media (max-width: 575.98px) {
     .modocomputadora{
         display:none ;
@@ -891,7 +476,7 @@
     .abs-center {
         display: flex;
         align-items: right;
-        justify-content: center; 
+        justify-content: left; 
         margin-top: 30px;
         width: 950px;
       }
