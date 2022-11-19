@@ -66,7 +66,7 @@
 
 
 .caja_bikers{
-    background-image: url(imagenes/bikers.png);
+    background-image: url(imagenes/bikerspanel.png);
     background-size: cover;
     margin-bottom: 10px;
 }
@@ -209,6 +209,7 @@
     margin-bottom: 80px;
     color:whitesmoke;
 }
+
 .titulopregfre{
     margin-top:25px;
     color:whitesmoke;
@@ -316,6 +317,7 @@
 .color_boton:hover
 {
     background-color:grey;
+    color:whitesmoke;
  
     
 }
@@ -390,6 +392,23 @@
   .edit_contactanos{
     color: whitesmoke;
   }
+  .consultarealizada{
+    color:  rgb(151, 151, 151);
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .ingresoincorrecto{
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .titulosobrecromo2{
+    margin-top:80px;
+    margin-bottom: 30px;
+    color:whitesmoke;
+}
 
   .caja_bannerpreguntasfrecuentes{
    background-image: url(imagenes/bannerpreguntasfrecuentes.png);
@@ -404,6 +423,8 @@
     color:whitesmoke;
     background-color: rgba(245, 245, 245, 0.477);
   }
+  
+  
  .caja_recordarmelo{
     color: whitesmoke;
  }

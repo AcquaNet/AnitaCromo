@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,13 +19,22 @@
                             <button class="btn btn-light btn-sm" type="submit">Buscar</button>
                         </form>
 
-                    <div class="caja_cuenta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="" viewBox="0 0 16 16">
+                        <div class="caja_cuenta"><?php if(isset($_SESSION['clientes'])) { ?><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                      </svg><a href="cuenta.html" class="botones caja_cuenta1">CUENTA</a></div>
+                      </svg> 
+                        <a href="cerrar_secion.php" class="botones caja_cuenta1">CERRAR SESION</a>
+                        <?php } else { ?>
+                    </div>
+
+                    <div class="caja_cuenta"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                      </svg><a href="cuenta.html" class="botones caja_cuenta1">CUENTA</a>
+                      <?php } ?>
+                    </div>
                     
                     <div class=" caja_carrito"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                      </svg><a href="carrito.html" class="botones caja_carrito1">CARRITO</a></div>
+                      </svg><a href="carrito.html" class="botones caja_carrito1"></a></div>
                 </div>
             </div>
             <nav id="botonera"  class="navbar navbar-expand-lg  col-sm-4 col-xl-5 botoneracomputadora">
@@ -40,19 +50,19 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle botones" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
                         <ul class="dropdown-menu subsecciones">
-                            <li><a class="dropdown-item subsecciones" href="productos.html">Ver todo</a></li> 
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="remerasytops.html">Remeras y tops</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="vestidos.html">Vestidos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="poleras.html">Poleras</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="pañuelos.html">Pañuelos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="bikers.html">Bikers</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item subsecciones" href="buzos.html">Buzos</a></li>
+                            <li><a class="dropdown-item subsecciones" href="productos.php">Ver todo</a></li> 
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="remerasytops.php">Remeras y tops</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="vestidos.php">Vestidos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="poleras.php">Poleras</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="pañuelos.php">Pañuelos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="bikers.php">Bikers</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item subsecciones" href="buzos.php">Buzos</a></li>
                           </ul>
                       </li>
                       <li class="nav-item">
@@ -84,19 +94,19 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle botones" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
                         <ul class="dropdown-menu subsecciones">
-                            <li><a class="dropdown-item subsecciones" href="productos.html">Ver todo</a></li> 
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="remerasytops.html">Remeras y tops</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="vestidos.html">Vestidos</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="poleras.html">Poleras</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="pañuelos.html">Pañuelos</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="bikers.html">Bikers</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item subsecciones" href="buzos.html">Buzos</a></li>
+                            <li><a class="dropdown-item subsecciones" href="productos.php">Ver todo</a></li> 
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="remerasytops.php">Remeras y tops</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="vestidos.php">Vestidos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="poleras.php">Poleras</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="pañuelos.php">Pañuelos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="bikers.php">Bikers</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item subsecciones" href="buzos.php">Buzos</a></li>
                           </ul>
                       </li>
                       <li class="nav-item">
@@ -118,19 +128,27 @@
                             <input class="form-control form-control-sm " type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-light btn-sm" type="submit">Buscar</button>
                         </form>
+                       
+                        <div class="caja_cuenta"><?php if(isset($_SESSION['clientes'])) { ?><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg> 
+                        <a href="cerrar_secion.php" class="botones caja_cuenta1">CERRAR SESION</a>
+                        <?php } else { ?>
+                    </div>
 
                     <div class="caja_cuenta"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="" viewBox="0 0 20 20">
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                      </svg><a href="cuenta.html" class="botones caja_cuenta1">CUENTA</a></div>
+                      </svg><a href="cuenta.html" class="botones caja_cuenta1">CUENTA</a>
+                      <?php } ?>
+                    </div>
                     
                     <div class=" caja_carrito"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="" viewBox="0 0 20 20">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                      </svg><a href="carrito.html" class="botones caja_carrito1">CARRITO</a></div>
+                      </svg><a href="carrito.html" class="botones caja_carrito1"></a></div>
                 </div>
             </div>
         </div> 
     </header>
-
     <section id="cont_productos" class="container-fluid">
         <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col col-sm-12 col-md-6 col-xl-3 cajaproductos">
@@ -138,8 +156,10 @@
                   <img src="imagenes/topcuellomarmol.jpeg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">TOP CUELLO MARMOL</h5>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$5.500</p>
-                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                    <?php } ?>
                   </div>
                 </div>
             </div>
@@ -149,8 +169,10 @@
                   <img src="imagenes/top.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">TOP CUELLO JAPÓN</h5>
+                    <?php if(isset($_SESSION['clientes'])) { ?>
                     <p class="card-text">$5.500</p>
-                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                    <?php } ?>
                   </div>
                   
                 </div>
@@ -162,8 +184,10 @@
                     <img src="imagenes/topmilosdragon.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TOP MILOS DRAGÓN</h5>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$3.400</p>
-                      <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                      <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                      <?php } ?>
                     </div>
                     
                 </div>
@@ -174,8 +198,10 @@
                     <img src="imagenes/topmilos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TOP MILOS</h5>
+                      <?php if(isset($_SESSION['clientes'])) { ?>
                       <p class="card-text">$3.400</p>
-                      <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                      <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                      <?php } ?>
                     </div>
                 </div>
             </div>
@@ -186,8 +212,10 @@
                         <img src="imagenes/topmilosjapon.png" class="card-img-top" alt="...">
                     <div class="card-body">
                           <h5 class="card-title">TOP MILOS JAPÓN</h5>
+                          <?php if(isset($_SESSION['clientes'])) { ?>
                           <p class="card-text">$3.400</p>
-                          <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                          <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                          <?php } ?>
                     </div>
                         
                 </div>
@@ -197,8 +225,10 @@
                      <img src="imagenes/topcuellosea.png" class="card-img-top" alt="...">
                    <div class="card-body">
                        <h5 class="card-title">TOP CUELLO SEA</h5>
+                       <?php if(isset($_SESSION['clientes'])) { ?>
                        <p class="card-text">$5.500</p>
-                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                       <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                       <?php } ?>
                    </div>
                </div>
            </div>
@@ -207,8 +237,10 @@
                             <img src="imagenes/topcuellovangogh.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">TOP CUELLO VAN GOGH</h5>
+                       <?php if(isset($_SESSION['clientes'])) { ?>
                        <p class="card-text">$5.500</p>
-                       <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                       <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                       <?php } ?>
                     </div>
                             
                 </div>
@@ -218,8 +250,10 @@
                                 <img src="imagenes/topcuellofusion.png" class="card-img-top" alt="...">
                     <div class="card-body">
                                   <h5 class="card-title">TOP CUELLO FUSION</h5>
+                                  <?php if(isset($_SESSION['clientes'])) { ?>
                                   <p class="card-text">$5.500</p>
-                                  <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                  <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                  <?php } ?>
                     </div>
                 </div>
             </div>
@@ -230,8 +264,10 @@
                                     <img src="imagenes/topcuellojungle.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                                       <h5 class="card-title">TOP CUELLO JUNGLE</h5>
+                                      <?php if(isset($_SESSION['clientes'])) { ?>
                                       <p class="card-text">$5.500</p>
-                                      <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                      <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                      <?php } ?>
                     </div>
                 </div>
             </div>
@@ -240,8 +276,10 @@
                             <img src="imagenes/topcuellowoods.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP CUELLO WOODS</h5>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$5.500</p>
-                                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                    <?php } ?>
                             </div>
                                         
                 </div>
@@ -251,8 +289,10 @@
                             <img src="imagenes/topmilosmarmol.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP MILOS MARMOL</h5>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$3.400</p>
-                                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                    <?php } ?>
                             </div>
                 </div>
             </div>
@@ -261,8 +301,10 @@
                             <img src="imagenes/remera maja.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">REMERA MAJA</h5>
+                                <?php if(isset($_SESSION['clientes'])) { ?>
                                 <p class="card-text">$4.000</p>
-                                <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                <?php } ?>
                             </div>
                                           
                 </div>
@@ -273,8 +315,10 @@
                             <img src="imagenes/topcuellodragon.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">TOP CUELLO DRAGÓN</h5>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$5.500</p>
-                                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                    <?php } ?>
                             </div>
                 </div>
             </div>
@@ -283,8 +327,10 @@
                             <img src="imagenes/remeramierva.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">REMERA MINERVA</h5>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$3.400</p>
-                                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                    <?php } ?>
                             </div>
                                                 
                 </div>
@@ -294,8 +340,10 @@
                             <img src="imagenes/musculosacuouro.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                     <h5 class="card-title">MUSCULOSACUOURO</h5>
+                                    <?php if(isset($_SESSION['clientes'])) { ?>
                                     <p class="card-text">$8.000</p>
-                                    <a href="carrito.html" class="btn btn-primary carrito">AGREGAR AL CARRITO</a>
+                                    <a href="carrito.html" class="btn color_boton">AGREGAR AL CARRITO</a>
+                                    <?php } ?>
                             </div>
                     </div>
             </div>
